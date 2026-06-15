@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Arsip MMU Idadiya</title>
+  <link rel="icon" href="https://i.postimg.cc/3RMdnHNb/E-Arsip-Idadiyah.jpg" /> <!--- Untuk Ubah Icon Web --->
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #eee;
+    }
+
+    .iframe-container {
+      width: 100%;
+      height: 100dvh;
+      overflow: hidden;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100dvh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-container">
+    <iframe
+      id="app"
+      src="https://script.google.com/macros/s/AKfycbxtqVc8yUc1ZtbqVDiHGqwazibGYvm31Rf8PQl76uk46-h__7Um8ShNyDOWRnwpXxF6xw/exec" 
+      scrolling="yes">
+    </iframe>
+  </div>
+</body>
+</html>
